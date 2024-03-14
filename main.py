@@ -4,7 +4,7 @@ from player import Player
 from plataformas import Platform
 from enemy import Enemy1, Enemy2
 
-# Inicializar Pygame
+# Inicializar Pygame...
 pygame.init()
 
 # Dimensiones de la ventana del juego
