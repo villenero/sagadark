@@ -9,5 +9,5 @@ Los miembros de Tritón Software fueron:
 
 Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tYvg&t=216s
 
-!(https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
+![AZKAR](https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
 
