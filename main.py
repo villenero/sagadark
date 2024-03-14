@@ -4,7 +4,7 @@ from player import Player
 from plataformas import Platform
 from enemy import Enemy1, Enemy2
 
-# Inicializar Pygame...
+# Inicializar Pygame
 pygame.init()
 
 # Dimensiones de la ventana del juego
@@ -17,7 +17,7 @@ black = (0, 0, 0)
 
 # Crear la ventana del juego
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Saga Dark py")
+pygame.display.set_caption("Saga Dark Python")
 
 # Cargar la imagen de fondo
 background_image = pygame.image.load("bitmaps/fondo.png")
