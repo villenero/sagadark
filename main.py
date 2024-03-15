@@ -59,18 +59,18 @@ while running:
                 player.move_left()
             elif event.key == pygame.K_RIGHT:
                 player.move_right()
-            elif event.key == pygame.K_SPACE:
+            elif event.key == pygame.K_UP:
                 player.jump()
+            elif event.key == pygame.K_SPACE:
+                player.attack()
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT and player.speed_x < 0:
                 player.stop()
             elif event.key == pygame.K_RIGHT and player.speed_x > 0:
                 player.stop()
 
-
-
     # Generar enemigos aleatoriamente
-    if random.randint(1, 100) == 1:
+    if random.randint(1, 200) == 1:
         enemy_type = random.choice([Enemy1, Enemy2])
         enemy = enemy_type(10)  # Pasar los fotogramas por segundo deseados
         all_sprites.add(enemy)
@@ -86,15 +86,20 @@ while running:
 
     # Comprobar colisiones con los enemigos
     if pygame.sprite.spritecollide(player, enemies, False):
-        running = False
+        running = True
+       # running = False
 
     # Borrar el fondo antes de dibujar los sprites
     screen.fill(white)
     screen.blit(background_image, (0, 0))
 
     # Dibujar los sprites
-    all_sprites.draw(screen)
     platforms.draw(screen)
+    enemies.draw(screen)
+
+    # Dibujar el personaje (torso y piernas)
+    player.draw(screen)
+
     pygame.display.flip()
 
 # Salir del juego
