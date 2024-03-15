@@ -1,4 +1,5 @@
-!SAGA DARK PYTHON REMAKE
+# SAGA DARK PYTHON REMAKE
+## An AI assisted test of remaking an 80's videogame in 2024
 
 Saga Dark fue un videojuego para micro ordenadores ZX Spectrum, producido por Tritón Software entre 1989 y 1991, que nunca llegó a ser publicado.
 
