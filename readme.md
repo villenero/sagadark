@@ -10,7 +10,11 @@ Los miembros de Tritón Software fueron:
 - Antonio Juán Hernández Cuellar, gráficos
 - Alfonso Tribaldo Ruiz, gráficos & maps
 
+Artículo sobre Tritón Software >> https://trastero.speccy.org/2010/290810/TritonSoftware.htm
+https://www.elmundodelspectrum.com/triton-software-historia-y-avances-de-su-juego-saga-dark/
+https://spectrumcomputing.co.uk/entry/25129/
 Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tYvg&t=216s
+
 
 ![AZKAR](https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
 
