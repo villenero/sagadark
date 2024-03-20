@@ -30,6 +30,15 @@ cueva_image = pygame.image.load("bitmaps/jaca/cueva-2x.png")
 pant01_image = pygame.image.load("bitmaps/film/pant-01.png")
 pant01_02_image = pygame.image.load("bitmaps/film/pant-01-02.png")
 
+pant02_image = pygame.image.load("bitmaps/film/pant-02.png")
+pant03_image = pygame.image.load("bitmaps/film/pant-03.png")
+pant04_image = pygame.image.load("bitmaps/film/pant-04.png")
+pant05_image = pygame.image.load("bitmaps/film/pant-05.png")
+pant06_image = pygame.image.load("bitmaps/film/pant-06.png")
+pant07_image = pygame.image.load("bitmaps/film/pant-07.png")
+pant08_image = pygame.image.load("bitmaps/film/pant-08.png")
+pant09_image = pygame.image.load("bitmaps/film/pant-09.png")
+
 # Cargar el sonido de galope de la jaca
 toc_sound = pygame.mixer.Sound("snds/galop-01.wav")
 
@@ -176,25 +185,25 @@ while running:
 
 # Empieza la película
 # Texto a mostrar
-    text = "HIJO MIO... HAN SIDO LARGOS AÑOS\nDE DURO ENTRENAMIENTO, AHORA\nESCUCHA LA HISTORIA QUE VOY A\nNARRARTE. LUEGO, DE TI DEPENDERÁ#" \
-        "MI FUTURO... Y EL DE LO QUE\nQUE QUEDA DE HUMANIDAD.#" \
-        "HACE MUCHOS AÑOS EN ESTE MALDITO\nPLANETA EXISTIÓ UNA GRAN CULTURA\nNUESTROS ANTEPASADOS VIVÍAN EN\nGIGANTESCAS CONSTRUCCIONES QUE#" \
-        "LLEGABAN AL CIELO, PERO LA\nCODICIA DE ESTOS LES CONDUJO A\nSU PROPIA EXTINCIÓN.#" \
-        "GIGANTESCOS ÁRBOLES DE FUEGO,\nACABARON CON LA BRILLANTE\nCIVILIZACIÓN. LOS GRANDES ÁRBOLES\nTRANSFORMARON EN CENIZAS#" \
-        "CONSTRUCCIONES, HOMBRES Y\nANIMALES POR IGUAL#" \
-        "SOLO UNOS POCOS SIBREVIVIERON,\nAQUELLOS ELEGIDOS EMPRENDIERON\nUNA DIFÍCIL TAREA E INTENTARON\nVOLVER A SER COMO ERAN, PERO..." \
-        "JAMAS LO CONSIGUIERON.\nLAS EPIDEMIAS SE SUCEDIERON Y\nDIEZMARON AUN MÁS A LA YA AZOTADA\nCIVILIZACIÓN" \
-        "LOS REMOTOS Y OLVIDADOS TIEMPOS\nDE BRUJOS, DRAGONES Y HECHIZEROS\nREGRESARON. FUE ENTONCES CUANDO\nAPARECIÓN EL PRIMER -DARK-" \
-        "ESTE NO TARDÓ EN RECLUTAR Y\nADIESTRAR FUERTES Y MALÉVOLOS\nSERES." \
-        "EL Y SU TROPA SAQUEARON, MATARON\nY VIOLARON A LOS INDEFENSOS\nHABITANTES DE LOS POBLADOS\nPOR DONDE PASABAN ." \
-        "PRIMERO FUERON LAS ALDEAS DE LA\nCOSTA Y DESPUÉS LAS DEL INTERIOR\nTODOS ERAN SOMETIDOS BAJO SU\nCRUEL Y SANGRIENTA MIRADA." \
-        "KAMUIR, EL SEGUNDO -DARK-, NO SE\nHIZO ESPERAR, TRAS LA MUERTE DE\nSU PADRE SAQUEÓ NUESTRO POBLADO\nY SEGÓ LA VIDAD DE MI FAMILIA." \
-        "CON FRIA SONRISA LENTAMENTE BAJÓ\nSU CABEZA Y ME MIRÓ, YO PORTABA\nEN MIS BRAZOS EL LIBRO\nMÍSTICO EL CONTENIDO DE ESE LIBRO LO ERA" \
-        "TODO PARA MI. ERA MI PROTECTOR\nCONTRA LAS FUERZAS OCULTAS DE\nLAS TINIEBLAS. PUDE ESCAPAR DE\nAQUEL INFIERNO." \
-        "ESTUVE AL BORDE DE LA MUERTE EN\nVARIAS OCASIONES, PERO PUDE\nALCANZAR UN FOCO DE CIVILIZACIÓN\nALEJADO DE LA DESOLACIÓN." \
-        "PASARON LOS AÑOS Y CUANDO TODO\nERA RECORDADO COMO UNA LEJANA\nPESADILLA, KAMUIR REGRESÓ CON\nSU ODIO HACIA TODO LO VIVO." \
-        "POR SEGUNDA VEZ DESTRUYÓ TODO\nAQUELLO POR LO QUE YO HABÍA\nLUCHADO, MI FAMILIA Y MI LIBRO\nDEL CUAL SE APODERÓ" \
-        "FUE SOBRE LA TUMBA DE TU MADRE\nDONDE YO JURÉ VENGANZA, Y AHORA\nTÚ SERÁS EL ENCARGADO DE\nLLEVARLA A CABO."
+text01 ="HIJO MIO... HAN SIDO LARGOS AÑOS\nDE DURO ENTRENAMIENTO, AHORA\nESCUCHA LA HISTORIA QUE VOY A\nNARRARTE. LUEGO, DE TI DEPENDERÁ#" \
+        "MI FUTURO... Y EL DE LO QUE\nQUE QUEDA DE HUMANIDAD.#"
+text02 ="HACE MUCHOS AÑOS EN ESTE MALDITO\nPLANETA EXISTIÓ UNA GRAN CULTURA\nNUESTROS ANTEPASADOS VIVÍAN EN\nGIGANTESCAS CONSTRUCCIONES QUE#" \
+        "LLEGABAN AL CIELO, PERO LA\nCODICIA DE ESTOS LES CONDUJO A\nSU PROPIA EXTINCIÓN.#"
+text03 ="GIGANTESCOS ÁRBOLES DE FUEGO,\nACABARON CON LA BRILLANTE\nCIVILIZACIÓN. LOS GRANDES ÁRBOLES\nTRANSFORMARON EN CENIZAS#" \
+        "CONSTRUCCIONES, HOMBRES Y\nANIMALES POR IGUAL#"
+text04 ="SOLO UNOS POCOS SOBREVIVIERON,\nAQUELLOS ELEGIDOS EMPRENDIERON\nUNA DIFÍCIL TAREA E INTENTARON\nVOLVER A SER COMO ERAN, PERO...#" \
+        "JAMAS LO CONSIGUIERON.\nLAS EPIDEMIAS SE SUCEDIERON Y\nDIEZMARON AUN MÁS A LA YA AZOTADA\nCIVILIZACIÓN#"
+text05 ="LOS REMOTOS Y OLVIDADOS TIEMPOS\nDE BRUJOS, DRAGONES Y HECHIZEROS\nREGRESARON. FUE ENTONCES CUANDO\nAPARECIÓN EL PRIMER -DARK-#" \
+        "ESTE NO TARDÓ EN RECLUTAR Y\nADIESTRAR FUERTES Y MALÉVOLOS\nSERES.#"
+text06 ="EL Y SU TROPA SAQUEARON, MATARON\nY VIOLARON A LOS INDEFENSOS\nHABITANTES DE LOS POBLADOS\nPOR DONDE PASABAN .#" \
+        "PRIMERO FUERON LAS ALDEAS DE LA\nCOSTA Y DESPUÉS LAS DEL INTERIOR\nTODOS ERAN SOMETIDOS BAJO SU\nCRUEL Y SANGRIENTA MIRADA.#"
+text07 ="KAMUIR, EL SEGUNDO -DARK-, NO SE\nHIZO ESPERAR, TRAS LA MUERTE DE\nSU PADRE SAQUEÓ NUESTRO POBLADO\nY SEGÓ LA VIDAD DE MI FAMILIA.#" \
+        "CON FRIA SONRISA LENTAMENTE BAJÓ\nSU CABEZA Y ME MIRÓ, YO PORTABA\nEN MIS BRAZOS EL LIBRO MÍSTICO\nEL CONTENIDO DE ESE LIBRO LO ERA#" \
+        "TODO PARA MI. ERA MI PROTECTOR\nCONTRA LAS FUERZAS OCULTAS DE\nLAS TINIEBLAS. PUDE ESCAPAR DE\nAQUEL INFIERNO.#" 
+text08 ="ESTUVE AL BORDE DE LA MUERTE EN\nVARIAS OCASIONES, PERO PUDE\nALCANZAR UN FOCO DE CIVILIZACIÓN\nALEJADO DE LA DESOLACIÓN.#" \
+        "PASARON LOS AÑOS Y CUANDO TODO\nERA RECORDADO COMO UNA LEJANA\nPESADILLA, KAMUIR REGRESÓ CON\nSU ODIO HACIA TODO LO VIVO.#" 
+text09 ="POR SEGUNDA VEZ DESTRUYÓ TODO\nAQUELLO POR LO QUE YO HABÍA\nLUCHADO, MI FAMILIA Y MI LIBRO\nDEL CUAL SE APODERÓ#"
+text10 ="FUE SOBRE LA TUMBA DE TU MADRE\nDONDE YO JURÉ VENGANZA, Y AHORA\nTÚ SERÁS EL ENCARGADO DE\nLLEVARLA A CABO.#"
 
 
 def print_text(text):
@@ -203,15 +212,17 @@ def print_text(text):
         if text[text_index] == "#":
             current_text = ""
             text_index += 1
-            # screen.fill(black)  # Borrar los textos ya impresos
+            # Borrar los textos ya impresos
             pygame.display.update()
         else:
             current_text += text[text_index]
             text_index += 1
             tap_sound.play(0)
     else:
+        # llegamos al final de texto
         text_index = 0
         current_text = ""
+        return -1
 
     text_lines = current_text.split("\n")
     for i, line in enumerate(text_lines):
@@ -223,6 +234,7 @@ def print_text(text):
 text_index = 0
 running = True
 current_text = ""
+current_screen = 1
 
 # Dibujar el fondo
 screen.fill(black)
@@ -242,23 +254,90 @@ while running:
     # Dibujar el fondo
     screen.fill(black)
 
-    # Dibujar la pantalla 1
-    screen.blit(pant01_image, (0, 0))
+    if current_screen == 1:
+        # Dibujar la pantalla 1
+        screen.blit(pant01_image, (0, 0))
 
-    current_image += 1
-    if current_image == 1:
-        screen.blit(pant01_image, (0, 0))    
-    else:
-        screen.blit(pant01_02_image, (0, 0))
-        current_image = 0
+        current_image += 1
+        if current_image == 1:
+            screen.blit(pant01_image, (0, 0))    
+        else:
+            screen.blit(pant01_02_image, (0, 0))
+            current_image = 0
 
-    print_text(text)
+        if print_text(text01) == -1:
+            current_screen += 1
+
+    if current_screen == 2:
+        # Dibujar la pantalla 2
+        screen.blit(pant02_image, (0, 0))
+
+        if print_text(text02) == -1:
+            current_screen += 1
+    
+    if current_screen == 3:
+        # Dibujar la pantalla 3
+        screen.blit(pant03_image, (0, 0))
+
+        if print_text(text03) == -1:
+            current_screen += 1
+
+    if current_screen == 4:
+        # Dibujar la pantalla 4
+        screen.blit(pant04_image, (0, 0))
+
+        if print_text(text04) == -1:
+            current_screen += 1
+
+    if current_screen == 5:
+        # Dibujar la pantalla 5
+        screen.blit(pant05_image, (0, 0))
+
+        if print_text(text05) == -1:
+            current_screen += 1
+    
+    if current_screen == 6:
+        # Dibujar la panta la 6
+        screen.blit(pant06_image, (0, 0))
+
+        if print_text(text06) == -1:
+            current_screen += 1
+
+    if current_screen == 7:
+        screen.blit(pant07_image, (0, 0))
+
+        if print_text(text07) == -1:
+            current_screen += 1
+    
+    if current_screen == 8:
+        screen.blit(pant08_image, (0, 0))
+
+        if print_text(text08) == -1:
+            current_screen += 1
+
+    if current_screen == 9:
+        screen.blit(pant09_image, (0, 0))
+
+        if print_text(text09) == -1:
+            current_screen += 1
+
+    if current_screen == 10:
+        
+        current_image += 1
+        if current_image == 1:
+            screen.blit(pant01_image, (0, 0))    
+        else:
+            screen.blit(pant01_02_image, (0, 0))
+            current_image = 0
+
+        if print_text(text10) == -1:
+            current_screen += 1
 
     # Actualizar la pantalla
     pygame.display.flip()
 
     # Limitar la velocidad de fotogramas
-    clock.tick(12)
+    clock.tick(15)
 
 # Salir del juego
 pygame.quit()
