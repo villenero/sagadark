@@ -13,7 +13,7 @@ black = (0, 0, 0)
 
 # Crear la ventana del juego
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Jaca")
+pygame.display.set_caption("SAGA DARK FILM")
 
 # Cargar las imágenes del personaje
 jaca_images = [
@@ -27,18 +27,20 @@ jaca_images = [
 ground_image = pygame.image.load("bitmaps/jaca/suelo-2x.png")
 mountains_image = pygame.image.load("bitmaps/jaca/cordillera-2x.png")
 cueva_image = pygame.image.load("bitmaps/jaca/cueva-2x.png")
-pant01_image = pygame.image.load("bitmaps/film/pant-01.png")
+
+film_pantallas = [
+    pygame.image.load("bitmaps/film/pant-01.png"),
+    pygame.image.load("bitmaps/film/pant-02.png"),
+    pygame.image.load("bitmaps/film/pant-03.png"),
+    pygame.image.load("bitmaps/film/pant-04.png"),
+    pygame.image.load("bitmaps/film/pant-05.png"),
+    pygame.image.load("bitmaps/film/pant-06.png"),
+    pygame.image.load("bitmaps/film/pant-07.png"),
+    pygame.image.load("bitmaps/film/pant-08.png"),
+    pygame.image.load("bitmaps/film/pant-09.png")
+]
+
 pant01_02_image = pygame.image.load("bitmaps/film/pant-01-02.png")
-
-pant02_image = pygame.image.load("bitmaps/film/pant-02.png")
-pant03_image = pygame.image.load("bitmaps/film/pant-03.png")
-pant04_image = pygame.image.load("bitmaps/film/pant-04.png")
-pant05_image = pygame.image.load("bitmaps/film/pant-05.png")
-pant06_image = pygame.image.load("bitmaps/film/pant-06.png")
-pant07_image = pygame.image.load("bitmaps/film/pant-07.png")
-pant08_image = pygame.image.load("bitmaps/film/pant-08.png")
-pant09_image = pygame.image.load("bitmaps/film/pant-09.png")
-
 pant02_nave1 = pygame.image.load("bitmaps/film/pant-02-nave-01.png")
 pant02_nave2 = pygame.image.load("bitmaps/film/pant-02-nave-02.png")
 
@@ -267,9 +269,6 @@ current_screen = 0
 # Dibujar el fondo
 screen.fill(black)
 
-# Dibujar la pantalla 1
-screen.blit(pant01_image, (0, 0))
-
 current_image = 0
 
 
@@ -281,21 +280,16 @@ while running:
     
     # Dibujar el fondo
     screen.fill(black)
+    # Dibujar la pantalla 1
+    screen.blit(film_pantallas[current_screen], (0, 0))
 
-    if current_screen == 0:
-        # Dibujar la pantalla 1
-        screen.blit(pant01_image, (0, 0))
-
+    if current_screen == 0 or current_screen == 9:
         current_image += 1
-        if current_image == 1:
-            screen.blit(pant01_image, (0, 0))    
-        else:
+        if current_image != 1:
             screen.blit(pant01_02_image, (0, 0))
             current_image = 0
 
     if current_screen == 1:
-        # Dibujar la pantalla 2
-        screen.blit(pant02_image, (0, 0))
         # Naves para la pantalla 2
         # Actualizar la posición de las naves
         nave1_x += 5
@@ -303,40 +297,6 @@ while running:
         # Dibuja las naves
         screen.blit(pant02_nave1, (nave1_x, 18))
         screen.blit(pant02_nave2, (nave2_x, 0))
-    
-    if current_screen == 2:
-        # Dibujar la pantalla 3
-        screen.blit(pant03_image, (0, 0))
-
-    if current_screen == 3:
-        # Dibujar la pantalla 4
-        screen.blit(pant04_image, (0, 0))
-
-    if current_screen == 4:
-        # Dibujar la pantalla 5
-        screen.blit(pant05_image, (0, 0))
-    
-    if current_screen == 5:
-        # Dibujar la panta la 6
-        screen.blit(pant06_image, (0, 0))
-
-    if current_screen == 6:
-        screen.blit(pant07_image, (0, 0))
-    
-    if current_screen == 7:
-        screen.blit(pant08_image, (0, 0))
-
-    if current_screen == 8:
-        screen.blit(pant09_image, (0, 0))
-
-    if current_screen == 9:
-        
-        current_image += 1
-        if current_image == 1:
-            screen.blit(pant01_image, (0, 0))    
-        else:
-            screen.blit(pant01_02_image, (0, 0))
-            current_image = 0
 
     if print_text(guion[current_screen]) == -1:
         current_screen += 1
