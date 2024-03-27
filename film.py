@@ -1,19 +1,22 @@
-import pygame
-
-# Inicializar Pygame
-pygame.init()
-
+import pygame, sys
 # Dimensiones de la ventana del juego
-width = 512
-height = 384
+screen_size = (512, 384)
 
 # Colores
 white = (255, 255, 255)
 black = (0, 0, 0)
 
+# Inicializar Pygame
+pygame.init()
+
+
 # Crear la ventana del juego
-screen = pygame.display.set_mode((width, height))
+screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption("SAGA DARK FILM")
+
+# Icono de la APP
+window_icon = pygame.image.load("bitmaps/icon.png")
+pygame.display.set_icon(window_icon)
 
 # Cargar las imágenes del personaje
 jaca_images = [
@@ -37,7 +40,8 @@ film_pantallas = [
     pygame.image.load("bitmaps/film/pant-06.png"),
     pygame.image.load("bitmaps/film/pant-07.png"),
     pygame.image.load("bitmaps/film/pant-08.png"),
-    pygame.image.load("bitmaps/film/pant-09.png")
+    pygame.image.load("bitmaps/film/pant-09.png"),
+    pygame.image.load("bitmaps/film/pant-01.png")
 ]
 
 pant01_02_image = pygame.image.load("bitmaps/film/pant-01-02.png")
@@ -52,7 +56,7 @@ tap_sound = pygame.mixer.Sound("snds/tap.wav")
 
 # Posición inicial del personaje
 character_x = 0
-character_y = height - 176
+character_y = screen_size[1] - 176
 
 # Posición inicial del suelo y las montañas
 ground_x = 0
@@ -126,7 +130,7 @@ while running:
     character_x += character_speed
 
     # Si llega al borde se para
-    if character_x > width - jaca_images[0].get_width():
+    if character_x > screen_size[0] - jaca_images[0].get_width():
         running = False
 
     # Actualizar la posición del suelo
@@ -147,8 +151,8 @@ while running:
     screen.blit(mountains_image, (mountains_x + mountains_image.get_width(), 80))
 
     # Dibujar el suelo por duplicado para scroll
-    screen.blit(ground_image, (ground_x, height - ground_image.get_height() - 32))
-    screen.blit(ground_image, (ground_x + ground_image.get_width(), height - ground_image.get_height() - 32))
+    screen.blit(ground_image, (ground_x, screen_size[1] - ground_image.get_height() - 32))
+    screen.blit(ground_image, (ground_x + ground_image.get_width(), screen_size[1] - ground_image.get_height() - 32))
 
     # Dibujar el personaje
     screen.blit(jaca_images[current_image], (character_x, character_y))
@@ -163,7 +167,7 @@ while running:
     text_lines = text[:text_index].split("\n")
     for i, line in enumerate(text_lines):
         text_surface = font.render(line, True, white)
-        text_rect = text_surface.get_rect(center=(width // 2, 144 + i * 24)) # height // 2 + i * 24))
+        text_rect = text_surface.get_rect(center=(screen_size[0] // 2, 144 + i * 24)) # height // 2 + i * 24))
         screen.blit(text_surface, text_rect)
 
     # Actualizar el índice de la letra actual
@@ -180,9 +184,7 @@ while running:
 running = True
 
 # Posición inicial del personaje, suelo y las montañas
-character_x = 0
-ground_x = 0
-mountains_x = 0
+character_x = ground_x = mountains_x = 0
 
 while running:
     # Manejar eventos
@@ -194,7 +196,7 @@ while running:
     character_x += character_speed
 
     # Si llega a la cueva se para
-    if character_x > width - jaca_images[0].get_width() - 60:
+    if character_x > screen_size[0] - jaca_images[0].get_width() - 60:
         running = False
 
     # Dibujar el fondo
@@ -204,10 +206,10 @@ while running:
     screen.blit(mountains_image, (mountains_x, 80))
 
     # Dibujar el suelo
-    screen.blit(ground_image, (ground_x, height - ground_image.get_height() - 32))
+    screen.blit(ground_image, (ground_x, screen_size[1] - ground_image.get_height() - 32))
     
     # Dibujar la cueva
-    screen.blit(cueva_image, (width - cueva_image.get_width(), 128))
+    screen.blit(cueva_image, (screen_size[0] - cueva_image.get_width(), 128))
 
     # Dibujar el personaje
     screen.blit(jaca_images[current_image], (character_x, character_y))
@@ -252,7 +254,7 @@ def print_text(text):
         text_lines = current_text.split("\n")
         for i, line in enumerate(text_lines):
             text_surface = font.render(line, True, white)
-            text_rect = text_surface.get_rect(center=(width // 2, 272 + i * 24))
+            text_rect = text_surface.get_rect(center=(screen_size[0] // 2, 272 + i * 24))
             screen.blit(text_surface, text_rect)
         text_index += 1
     else:
