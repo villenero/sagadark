@@ -20,4 +20,10 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 
 ![AZKAR](https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
-![Enemy Runner](https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
+
+# Enemies
+## The speed runner
+![Enemy Runner](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-runner.gif?raw=true)
+
+## The walking death
+![Enemy Zombie](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-zombie.gif?raw=true)
