@@ -27,3 +27,6 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 ## The walking death
 ![Enemy Zombie](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-zombie.gif?raw=true)
+
+## Diablillo
+![Enemy Diablillo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-little-devil.gif?raw=true)
