@@ -30,3 +30,8 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 ## Diablillo
 ![Enemy Diablillo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-little-devil.gif?raw=true)
+
+## Culo Volador
+![Culo Volador](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-flying-ass.gif?raw=true)
+
+
