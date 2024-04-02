@@ -42,10 +42,10 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Triby
 ![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-triby.gif?raw=true)
 
-## Draculín
-![Draculín](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bat.gif?raw=true)
+## Bouncer
+![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bouncer.gif?raw=true)
 
 ## Draculín
-![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bouncer.gif?raw=true)
+![Draculín](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bat.gif?raw=true)
 
 
