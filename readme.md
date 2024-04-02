@@ -21,7 +21,7 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 ![AZKAR](https://github.com/villenero/sagadark/blob/main/bitmaps/azkar/personaje_right_idle_1.png?raw=true)
 
-# Enemies
+# Enemies Fase I
 ## The speed runner
 ![Enemy Runner](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-runner.gif?raw=true)
 
@@ -36,5 +36,16 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 ## La Viscosa del Pantano
 ![Culo Volador](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-viscosa.gif?raw=true)
+
+# Enemies Fase I
+
+## Triby
+![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-triby.gif?raw=true)
+
+## Draculín
+![Draculín](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bat.gif?raw=true)
+
+## Draculín
+![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bouncer.gif?raw=true)
 
 
