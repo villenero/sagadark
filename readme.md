@@ -37,7 +37,7 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## La Viscosa del Pantano
 ![Culo Volador](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-viscosa.gif?raw=true)
 
-# Enemies Fase I
+# Enemies Fase II
 
 ## Triby
 ![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-triby.gif?raw=true)
