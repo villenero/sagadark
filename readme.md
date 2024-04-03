@@ -40,7 +40,7 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 # Enemies Fase II
 
 ## Triby
-![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-triby.gif?raw=true)
+![Triby](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-triby.gif?raw=true)
 
 ## Bouncer
 ![Bouncer](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bouncer.gif?raw=true)
@@ -48,4 +48,6 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Draculín
 ![Draculín](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-bat.gif?raw=true)
 
+## Zombie Knight
+![Zombie Knight](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-knight.gif?raw=true)
 
