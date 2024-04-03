@@ -51,3 +51,5 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Zombie Knight
 ![Zombie Knight](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-knight.gif?raw=true)
 
+## Blob
+![Blob](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-blob.gif?raw=true)
