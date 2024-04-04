@@ -31,11 +31,11 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Diablillo
 ![Enemy Diablillo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-little-devil.gif?raw=true)
 
-## Culo Volador
-![Culo Volador](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-flying-ass.gif?raw=true)
+## Gaseodóptero
+![Gaseodóptero](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-flying-ass.gif?raw=true)
 
 ## La Viscosa del Pantano
-![Culo Volador](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-viscosa.gif?raw=true)
+![La Viscosa del Pantano](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-viscosa.gif?raw=true)
 
 # Enemies Fase II
 
@@ -53,3 +53,7 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 
 ## Blob
 ![Blob](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-blob.gif?raw=true)
+
+
+# Mapeado Fase II
+
