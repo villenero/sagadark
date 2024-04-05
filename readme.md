@@ -54,6 +54,12 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Blob
 ![Blob](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-blob.gif?raw=true)
 
+## Dildoo
+![Dildoo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-pincho.gif?raw=true)
+
+## Saw
+![Saw](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-saw.gif?raw=true)
+
 
 # Mapeado Fase II
 ![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-01.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-02.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-03.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-04.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-05.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-06.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-07.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-08.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-09.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-10.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-11.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-12.png?raw=true)
