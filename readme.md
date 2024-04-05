@@ -54,17 +54,14 @@ Aquí un review walktrough gameplay >> https://www.youtube.com/watch?v=oWv56K0tY
 ## Blob
 ![Blob](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-blob.gif?raw=true)
 
-<<<<<<< HEAD
 ## Dildoo
 ![Dildoo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-pincho.gif?raw=true)
 
 ## Saw
 ![Saw](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-saw.gif?raw=true)
 
-=======
 ## Boss 2
 ![Boss 2](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-boss-02.gif?raw=true)
->>>>>>> 0ed7222d0ea5f1b3b28b5049be4a685d85789c0b
 
 # Mapeado Fase II
 ![Screen0201](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-01.png?raw=true)![Screen0202](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-02.png?raw=true)![Screen0203](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-03.png?raw=true)![Screen0204](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-04.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-05.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-06.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-07.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-08.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-09.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-10.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-11.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-12.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-13.gif?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-14.png?raw=true)![](https://github.com/villenero/sagadark/blob/main/resources/screenshots/SagaDark-02-15.png?raw=true)
