@@ -41,7 +41,7 @@ Embark on the epic journey of Phase I in Sagadark, set in an enchanted forest sh
 ![Enemy Diablillo](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-little-devil.gif?raw=true)
 
 ## Gaseodóptero
-![Gaseodóptero](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-flying-ass.gif?raw=true)
+![Gaseodóptero](https://github.com/villenero/sagadark/assets/7782627/a17b052d-111d-4afd-9ce2-0475df4dd55f)
 
 ## Pez
 ![Pez](https://github.com/villenero/sagadark/blob/main/bitmaps/gifs/enemy-pez.gif?raw=true)
