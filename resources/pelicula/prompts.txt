@@ -1,9 +1,0 @@
-
-Prompt genérico:
-crea un prompt de Dall-e para poder reproducir esta imagen de la forma más fiel posible
-
-Pantalla 1:
-Create a detailed black and white pixel art image that portrays a prehistoric scene inside a cave. On the left side, there's a human figure seated on the ground, profiled to the right, with distinctive spiky hair, wearing simple clothing that consists of wraps or furs. In the center, there's a campfire with dynamic flames and a few logs underneath to suggest a controlled fire. On the right side, a larger figure is seated, holding a staff with a crystal or gem affixed to the top, possibly a shaman or tribal leader, characterized by a large cloak and a hood. The figure's posture suggests they're in deep thought or performing a ritual. Around the scene, include cave walls adorned with simple drawings or carvings and a rough, rocky floor indicative of a natural cavern. The aesthetic should mimic that of a classic handheld gaming system from the late 80s or early 90s, with a limited pixel grid and monochrome palette, providing a sense of nostalgia and adventure
-
-Pantalla 5:
-Create a vibrant, wide pixel art image that depicts a chaotic, colorful street scene. The background should be ablaze with pixelated flames in various shades of red, orange, and yellow, creating an impression of a large fire. The middle ground is filled with a mix of structures; some appear to be huts and colorful shanties in green, red, and blue, while others are abstract shapes with contrasting colors like bright pink and blue. The foreground should contain pixelated representations of debris and possibly small figures in various poses suggesting movement and urgency. The entire scene should have the aesthetic of a vintage computer game from the 1980s, using a limited and bright color palette typical of the era's technology. The image should be busy and filled with action, capturing a sense of energy and chaos

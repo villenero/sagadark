@@ -1,0 +1,39 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "prueba2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sd-pant1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "test.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/carlosperezruiz/Desktop/prog/sagadark/bitmaps/2x",
+    "map.height": 24,
+    "map.width": 32,
+    "openFiles": [
+    ],
+    "project": "sagadark.tiled-project",
+    "recentFiles": [
+        "test.tsx",
+        "prueba2.tsx",
+        "sd-pant1.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}

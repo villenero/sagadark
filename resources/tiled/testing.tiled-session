@@ -1,0 +1,33 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "prueba2.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "test.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1.9678
+        }
+    },
+    "last.imagePath": "/Users/carlosperezruiz/Desktop/prog/sagadark/resources/screenshots",
+    "map.height": 24,
+    "map.width": 32,
+    "openFiles": [
+    ],
+    "project": "testing.tiled-project",
+    "recentFiles": [
+        "test.tsx",
+        "prueba2.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}
